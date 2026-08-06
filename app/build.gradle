@@ -44,3 +44,9 @@ android {
         }
     }
 }
+
+// Enable AndroidX
+project.ext {
+    set('android.useAndroidX', true)
+    set('android.enableJetifier', true)
+}
